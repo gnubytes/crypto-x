@@ -31,7 +31,7 @@ A second modification that can be made without too much trouble is changing the 
 ### Example:
 
 ```
-btc_val="$(curl -s "rate.sx/25000BTC")"
+coin_val="$(curl -s "rate.sx/25000BTC")"
 ```
 
 ## Modification #3 - Decimal Formatting
@@ -40,8 +40,8 @@ The third modification that can be made is the format of the coin amount. By def
 ### Example:
 
 ```
-eth_val="$(curl -s "rate.sx/1ETH")"
-printf "%.2f\n" $eth_val
+coin_val="$(curl -s "rate.sx/1ETH")"
+printf "%.2f\n" $coin_val
 ```
 
 # Credits
