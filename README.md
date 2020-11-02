@@ -43,6 +43,8 @@ The third modification that can be made is the format of the coin amount. By def
 coin_val="$(curl -s "rate.sx/1ETH")"
 printf "%.2f\n" $coin_val
 ```
+# XFCE Panel Modifications
+[PLACEHOLDER]
 
 # Credits
 Much credit to Igor Chubin (https://github.com/chubin) for the fantastic Rate.sx project (https://github.com/chubin/rate.sx). Rate.sx serves as the source of cryptocurrency pricing information for crypto-x.
