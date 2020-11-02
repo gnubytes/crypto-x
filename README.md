@@ -12,7 +12,7 @@ Crypto-x requires the following dependencies to function properly:
 Since crypto-x is a simple bash script there isn't much configuration that can be done or is needed for that matter. However, for those users that choose to make changes to accommodate their particular use case, there are three easy modifications that can be made as outlined below.
 
 ## Modification #1 - Coin
-One modification that is particularly easy to make is changing the coin you would like to track/monitor. By default bitcoin is used, however, this can be changed easily by changing the script variable ***"btc_val"*** to a coin of your choosing by replacing "BTC" with a coin denoted below (or other). The only caveat is the coin needs to be in the population of crypto tracked by the Rate.sx project. Below are the most popular coin options available:
+One modification that is particularly easy to make is changing the coin you would like to track/monitor. By default bitcoin is used, however, this can be changed easily by changing the script variable ***"coin_val"*** to a coin of your choosing by replacing "BTC" with a coin denoted below (or other). The only caveat is the coin needs to be in the population of crypto tracked by the Rate.sx project. Below are the most popular coin options available:
 
 - Bitcoin (BTC)
 - Bitcoin Cash (BCH)
