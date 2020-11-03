@@ -51,7 +51,18 @@ coin_val="$(curl -s "rate.sx/1ETH")"
 printf "%.2f\n" $coin_val
 ```
 # XFCE Panel Modifications
-[PLACEHOLDER]
+Crypto-x can be run on any desktop environment or tiling window manager as a shell script with output diplaying in a terminal. This section attempts to take advantage of a particular feature of the XFCE desktop environment panel named ***Generic Monitor***. With the Generic Monitor the XFCE panel user can easily display the coin price using the crypto-x script.
+
+To add the generic monitor to the panel and integrate the crypto-x script follow these steps:
+
+- **Step 1** - Right click on the XFCE Panel, scroll to Panel/Add New Items
+- **Step 2** - Scroll to or Search for "Generic Monitor", click "+Add"
+- **Step 3** - Find the generic monitor in the panel (usually all the way to the right), right click on it and click "Properties".
+- **Step 4** - Find the Command Lable and type in the location of executable script (e.g. /home/gnubytes/.scripts/coin_monitor.sh)
+- **Step 5** - Check "Label" and put in a descriptive word to identify the coin in the panel (e.g. "BTC:")
+- **Step 6** - Adjust the refresh interval (in seconds). I set this interval to 5 minutes (300 seconds) so it's not constantly using up computing resources.
+- **Step 7** - Make any formatting adjustments by clicking the large button at the bottom. There you can change fonts, sizes, etc. Feel free to experiment here for consistency with your themes, fonts, etc.
+- **Step 8** - Click Close
 
 # Credits
 Much credit to Igor Chubin (https://github.com/chubin) for the fantastic Rate.sx project (https://github.com/chubin/rate.sx). Rate.sx serves as the source of cryptocurrency pricing information for crypto-x.
